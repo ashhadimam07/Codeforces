@@ -12,7 +12,7 @@ int main()
     }
     sort(arr,arr+n);
     int res[n];
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n;i=i+1)
     {
         res[i]=0;
     }
